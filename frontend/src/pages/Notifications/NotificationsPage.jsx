@@ -1,0 +1,2 @@
+import NotificationItem from '@/components/notifications/NotificationItem';
+export default function NotificationsPage(){const data=[];return <div className='p-8'><h1 className='text-3xl font-bold mb-6'>Notifications</h1>{data.length?data.map((n,i)=><NotificationItem key={i} item={n}/>):<p>No notifications.</p>}</div>}

@@ -1,0 +1,1 @@
+export default function CouponCard({coupon}){return <div className='border rounded-xl p-4'><h3 className='font-bold'>{coupon?.code||'SAVE10'}</h3><p>{coupon?.discount||10}% OFF</p></div>}

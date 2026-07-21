@@ -1,0 +1,2 @@
+import BulkActionPanel from '@/components/admin/products/BulkActionPanel';
+export default function BulkActionsPage(){return <div className='p-8'><h1 className='text-3xl font-bold mb-6'>Bulk Product Actions</h1><BulkActionPanel/></div>}

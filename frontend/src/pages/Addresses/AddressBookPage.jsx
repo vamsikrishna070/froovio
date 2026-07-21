@@ -1,0 +1,1 @@
+import AddressCard from '@/components/address/AddressCard';export default function AddressBookPage(){return <div className='p-8'><h1 className='text-3xl font-bold mb-6'>Address Book</h1><AddressCard/></div>}

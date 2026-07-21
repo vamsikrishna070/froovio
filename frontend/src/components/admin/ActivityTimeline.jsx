@@ -1,0 +1,1 @@
+export default function ActivityTimeline({events=[]}){return <div className='border rounded-xl p-4'><h2 className='font-bold mb-4'>Recent Activity</h2>{events.length?events.map((e,i)=><div key={i} className='border-b py-2'>{e}</div>):<p>No recent activity.</p>}</div>}

@@ -1,0 +1,1 @@
+export default function StockStatus({stock=0}){return <span className={stock>0?'text-green-600':'text-red-600'}>{stock>0?'In Stock':'Out of Stock'}</span>}

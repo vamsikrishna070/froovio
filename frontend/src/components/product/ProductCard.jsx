@@ -1,0 +1,2 @@
+import Button from "@/components/ui/Button";
+export default function ProductCard({product}){return <div className="rounded-xl border overflow-hidden shadow-sm"><img src={product?.image||"https://placehold.co/600x400"} alt="" /><div className="p-4"><h3 className="font-semibold">{product?.name||"Product"}</h3><p className="text-orange-600 font-bold">${product?.price||0}</p><Button className="mt-4 w-full">Add to Cart</Button></div></div>}

@@ -1,0 +1,2 @@
+import InvoiceSummary from '@/components/invoice/InvoiceSummary';
+export default function InvoicePage(){return <div className='p-8'><h1 className='text-3xl font-bold mb-6'>Invoice</h1><InvoiceSummary/></div>}

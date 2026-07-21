@@ -1,0 +1,1 @@
+export default function RecentSearches({items=[]}){return <div className='border rounded-xl p-4'><h2 className='font-bold mb-3'>Recent Searches</h2>{items.map((i,n)=><span key={n} className='inline-block border rounded-full px-3 py-1 mr-2 mb-2'>{i}</span>)}</div>}

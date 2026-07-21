@@ -1,0 +1,1 @@
+export const pagination=(req,res,next)=>next();

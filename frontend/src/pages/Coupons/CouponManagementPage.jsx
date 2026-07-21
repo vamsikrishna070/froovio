@@ -1,0 +1,1 @@
+import CouponForm from '@/components/coupons/CouponForm';export default function CouponManagementPage(){return <div className='max-w-xl p-8'><h1 className='text-3xl font-bold mb-6'>Coupons</h1><CouponForm/></div>}

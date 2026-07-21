@@ -1,0 +1,1 @@
+export default function SalesChart(){return <div className='h-80 rounded-xl border flex items-center justify-center'>Sales Chart (Recharts)</div>}

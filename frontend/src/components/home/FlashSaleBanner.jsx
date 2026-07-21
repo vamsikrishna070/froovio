@@ -1,0 +1,1 @@
+export default function FlashSaleBanner(){return <div className='rounded-xl bg-orange-600 text-white p-6'><h2 className='text-2xl font-bold'>Flash Sale</h2><p>Limited-time offers on selected products.</p></div>}

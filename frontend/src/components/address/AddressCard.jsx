@@ -1,0 +1,1 @@
+export default function AddressCard({address}){return <div className='border rounded-xl p-4'><h3>{address?.name||'Home'}</h3><p>{address?.line1||'Address line'}</p></div>}

@@ -1,0 +1,1 @@
+export default function ImageZoom({src}){return <img src={src} alt='' className='w-full rounded-lg hover:scale-105 transition-transform cursor-zoom-in'/>}

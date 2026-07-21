@@ -1,0 +1,1 @@
+export default function VariantSelector(){return <div className='space-y-3'><select className='w-full border rounded p-2'><option>Select Size</option></select><select className='w-full border rounded p-2'><option>Select Color</option></select></div>}

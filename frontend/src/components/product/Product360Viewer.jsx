@@ -1,0 +1,1 @@
+export default function Product360Viewer(){return <div className='border rounded-xl p-6 text-center'>360° Product Viewer Placeholder</div>}

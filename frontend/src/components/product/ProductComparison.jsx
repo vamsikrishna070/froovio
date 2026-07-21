@@ -1,0 +1,1 @@
+export default function ProductComparison({products=[]}){return <div className='overflow-auto'><table className='w-full border'><thead><tr><th>Name</th><th>Price</th></tr></thead><tbody>{products.map(p=><tr key={p._id}><td>{p.name}</td><td>${p.price}</td></tr>)}</tbody></table></div>}

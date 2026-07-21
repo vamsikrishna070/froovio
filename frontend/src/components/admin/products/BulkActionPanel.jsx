@@ -1,0 +1,1 @@
+export default function BulkActionPanel(){return <div className='border rounded-xl p-6 space-y-4'><button className='px-4 py-2 rounded bg-orange-600 text-white'>Export CSV</button><button className='px-4 py-2 rounded bg-gray-800 text-white ml-2'>Import CSV</button></div>}

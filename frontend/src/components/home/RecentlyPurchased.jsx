@@ -1,0 +1,1 @@
+export default function RecentlyPurchased({orders=[]}){return <section><h2 className='text-2xl font-bold mb-4'>Recently Purchased</h2>{orders.length?orders.map(o=><div key={o._id} className='border rounded p-3 mb-2'>{o.name}</div>):<p>No recent purchases.</p>}</section>}

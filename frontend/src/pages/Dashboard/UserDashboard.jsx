@@ -1,0 +1,2 @@
+import LoyaltyCard from '@/components/dashboard/LoyaltyCard';
+export default function UserDashboard(){return <div className='p-8 space-y-6'><h1 className='text-3xl font-bold'>Dashboard</h1><LoyaltyCard points={250}/></div>}

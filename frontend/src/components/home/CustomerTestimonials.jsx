@@ -1,0 +1,1 @@
+export default function CustomerTestimonials({items=[]}){return <section><h2 className='text-2xl font-bold mb-4'>What Customers Say</h2>{items.length?items.map((i,n)=><blockquote key={n} className='border rounded-lg p-4 mb-3'>{i.comment}</blockquote>):<p>No testimonials yet.</p>}</section>}

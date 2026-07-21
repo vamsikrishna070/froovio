@@ -1,0 +1,1 @@
+export default function CompareProductsPage(){return <div className='p-8'><h1 className='text-3xl font-bold mb-6'>Compare Products</h1><p>Select products to compare specifications.</p></div>}

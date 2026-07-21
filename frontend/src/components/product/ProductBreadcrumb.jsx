@@ -1,0 +1,1 @@
+export default function ProductBreadcrumb(){return <nav className='text-sm text-gray-500'>Home / Shop / Product</nav>}

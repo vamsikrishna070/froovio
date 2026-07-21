@@ -1,0 +1,1 @@
+export default function NewsletterSignup(){return <form className='rounded-xl border p-6 space-y-4'><h2 className='text-xl font-bold'>Newsletter</h2><input className='w-full border rounded p-3' placeholder='Email address'/><button className='rounded bg-orange-600 text-white px-5 py-3'>Subscribe</button></form>}

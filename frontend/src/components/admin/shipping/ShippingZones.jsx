@@ -1,0 +1,1 @@
+export default function ShippingZones(){return <div className='border rounded-xl p-6'><h2 className='font-bold'>Shipping Zones</h2><button className='mt-4 px-4 py-2 rounded bg-orange-600 text-white'>Add Zone</button></div>}

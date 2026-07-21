@@ -1,0 +1,1 @@
+export default function SearchBar(){return <input className="w-full rounded-full border px-5 py-3" placeholder="Search products..."/>;}

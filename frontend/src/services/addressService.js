@@ -1,0 +1,1 @@
+import api from '@/config/axios';export const getAddresses=()=>api.get('/addresses');export const saveAddress=data=>api.post('/addresses',data);

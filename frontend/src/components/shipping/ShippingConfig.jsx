@@ -1,0 +1,1 @@
+export default function ShippingConfig(){return <div className='border rounded-xl p-6'><h2 className='font-bold'>Shipping Configuration</h2><input className='mt-4 w-full border rounded p-3' placeholder='Flat Shipping Rate'/></div>}

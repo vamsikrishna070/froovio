@@ -1,0 +1,1 @@
+export default function SavedCart(){return <div className='border rounded-xl p-6'><h2 className='font-bold'>Saved Cart</h2><button className='mt-4 rounded bg-orange-600 text-white px-4 py-2'>Restore Cart</button></div>}

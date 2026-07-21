@@ -1,0 +1,1 @@
+export default function ProductQA({questions=[]}){return <section><h2 className='text-2xl font-bold mb-4'>Questions & Answers</h2>{questions.length?questions.map((q,i)=><div key={i} className='border rounded p-3 mb-2'><p className='font-semibold'>{q.question}</p><p>{q.answer}</p></div>):<p>No questions yet.</p>}</section>}

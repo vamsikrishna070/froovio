@@ -1,0 +1,1 @@
+// Frontend component test placeholders

@@ -1,0 +1,1 @@
+export default function BackInStockPage(){return <div className='p-8'><h1 className='text-3xl font-bold mb-6'>Back in Stock Alerts</h1><p>Manage notifications for unavailable products.</p></div>}

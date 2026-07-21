@@ -1,0 +1,1 @@
+export default function TrendingProductsPage(){return <div className='p-8'><h1 className='text-3xl font-bold'>Trending Products</h1><p className='mt-4'>Browse today's trending items.</p></div>}

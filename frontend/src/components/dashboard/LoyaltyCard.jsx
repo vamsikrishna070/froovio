@@ -1,0 +1,1 @@
+export default function LoyaltyCard({points=0}){return <div className='rounded-xl border p-6'><h2 className='text-xl font-bold'>Loyalty Points</h2><p className='mt-3 text-4xl font-bold text-orange-600'>{points}</p></div>}

@@ -1,0 +1,1 @@
+export default function ReviewForm(){return <form className='space-y-3'><textarea className='w-full border rounded p-3' placeholder='Write your review'/><select className='border rounded p-2'><option>5 Stars</option><option>4 Stars</option><option>3 Stars</option></select><button className='bg-orange-600 text-white px-5 py-2 rounded'>Submit Review</button></form>}

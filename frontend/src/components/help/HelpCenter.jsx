@@ -1,0 +1,1 @@
+export default function HelpCenter(){return <div className='rounded-xl border p-6'><h2 className='text-2xl font-bold'>Help Center</h2><p className='mt-3'>Browse FAQs or contact support.</p></div>}

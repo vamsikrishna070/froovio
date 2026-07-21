@@ -1,0 +1,1 @@
+export default function SalesReport(){return <div className='rounded-xl border p-6'><h2 className='font-bold text-xl'>Sales Report</h2><p className='mt-3'>Charts and KPIs go here.</p></div>}

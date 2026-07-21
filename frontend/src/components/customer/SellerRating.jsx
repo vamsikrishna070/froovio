@@ -1,0 +1,1 @@
+export default function SellerRating({rating=5}){return <div className='border rounded-xl p-4'><strong>Seller Rating:</strong> {'★'.repeat(rating)}</div>}

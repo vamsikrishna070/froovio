@@ -1,0 +1,1 @@
+export default function RatingStars({rating=5}){return <div>{'★'.repeat(rating)}{'☆'.repeat(5-rating)}</div>}

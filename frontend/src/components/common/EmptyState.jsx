@@ -1,0 +1,1 @@
+export default function EmptyState({title="Nothing here"}){return <div className="py-20 text-center text-gray-500">{title}</div>}

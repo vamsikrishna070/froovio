@@ -1,0 +1,1 @@
+export default function RevenueChart(){return <div className='h-80 rounded-xl border flex items-center justify-center'>Revenue Chart</div>}

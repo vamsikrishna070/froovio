@@ -1,0 +1,1 @@
+export default function ProductVideoGallery({videos=[]}){return <section><h2 className='text-2xl font-bold mb-4'>Product Videos</h2>{videos.length?videos.map((v,i)=><video key={i} controls className='w-full mb-4' src={v}/>):<p>No videos available.</p>}</section>}

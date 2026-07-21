@@ -1,0 +1,1 @@
+export default function SizeGuide(){return <div className='border rounded-xl p-5'><h2 className='font-bold mb-3'>Size Guide</h2><p>Refer to the size chart before purchasing.</p></div>}

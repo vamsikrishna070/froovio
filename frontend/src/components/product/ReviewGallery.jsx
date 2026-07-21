@@ -1,0 +1,1 @@
+export default function ReviewGallery({images=[]}){return <div className='grid grid-cols-3 gap-3'>{images.map((img,i)=><img key={i} src={img} alt='' className='rounded-lg'/>)}</div>}

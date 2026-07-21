@@ -1,0 +1,1 @@
+export default function SearchSuggestions({items=[]}){return <div className='rounded-lg border bg-white'>{items.map((i,n)=><div key={n} className='p-3 hover:bg-gray-100'>{i}</div>)}</div>}

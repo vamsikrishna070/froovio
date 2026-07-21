@@ -1,0 +1,1 @@
+export default function CouponForm(){return <form className='space-y-3'><input className='w-full border rounded p-3' placeholder='Coupon Code'/><input type='number' className='w-full border rounded p-3' placeholder='Discount %'/><button className='bg-orange-600 text-white rounded px-4 py-3'>Save Coupon</button></form>}

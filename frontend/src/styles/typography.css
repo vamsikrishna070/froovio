@@ -1,0 +1,9 @@
+.display-xl{font-size:4rem;font-weight:800}
+.display-lg{font-size:3rem;font-weight:800}
+.heading-xl{font-size:2.25rem;font-weight:700}
+.heading-lg{font-size:1.875rem;font-weight:700}
+.heading-md{font-size:1.5rem;font-weight:600}
+.body-lg{font-size:1.125rem}
+.body-md{font-size:1rem}
+.body-sm{font-size:.875rem}
+.caption{font-size:.75rem;color:var(--color-muted)}

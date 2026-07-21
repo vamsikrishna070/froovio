@@ -1,0 +1,1 @@
+export default function RecentlyViewed({products=[]}){return <section><h2 className='text-2xl font-bold mb-4'>Recently Viewed</h2><div className='grid grid-cols-2 md:grid-cols-4 gap-4'>{products.map(p=><div key={p._id} className='border rounded p-3'>{p.name}</div>)}</div></section>}

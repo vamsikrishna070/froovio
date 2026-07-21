@@ -1,0 +1,3 @@
+import Container from "@/components/common/Container";
+import Button from "@/components/ui/Button";
+export default function Hero(){return <section className="py-24 bg-orange-50"><Container><h1 className="text-6xl font-bold max-w-xl">Fresh Groceries Delivered.</h1><p className="mt-4 text-gray-600">Modern marketplace built with MERN.</p><Button className="mt-8">Shop Now</Button></Container></section>}

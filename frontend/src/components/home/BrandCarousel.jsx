@@ -1,0 +1,1 @@
+export default function BrandCarousel({brands=[]}){return <section><h2 className='text-2xl font-bold mb-4'>Popular Brands</h2><div className='flex gap-4 overflow-x-auto'>{brands.map(b=><div key={b._id} className='min-w-36 rounded-lg border p-4 text-center'>{b.name}</div>)}</div></section>}

@@ -1,0 +1,1 @@
+export default function ProductActions(){return <div className='flex gap-3'><button className='bg-orange-600 text-white px-4 py-2 rounded'>Buy Now</button><button className='border px-4 py-2 rounded'>Add to Cart</button><button className='border px-4 py-2 rounded'>Wishlist</button></div>}

@@ -1,0 +1,2 @@
+import ProductTable from '@/components/admin/ProductTable';
+export default function ProductListPage(){return <div className='p-8'><h1 className='text-3xl font-bold mb-6'>Products</h1><ProductTable products={[]}/></div>}

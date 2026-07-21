@@ -1,0 +1,1 @@
+export default function PriceBreakdown(){return <div className='border rounded-xl p-4'><p>Price: $100</p><p>Discount: $10</p><p className='font-bold'>Total: $90</p></div>}

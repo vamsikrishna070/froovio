@@ -1,0 +1,1 @@
+export default function TaxSettings(){return <div className='border rounded-xl p-6'><h2 className='font-bold'>Tax Settings</h2><input className='mt-4 w-full border rounded p-3' placeholder='GST / VAT Percentage'/></div>}

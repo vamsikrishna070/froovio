@@ -1,0 +1,1 @@
+export default function DeliveryEstimate(){return <div className='rounded-lg border p-4'><strong>Estimated Delivery:</strong> 3–5 business days</div>}

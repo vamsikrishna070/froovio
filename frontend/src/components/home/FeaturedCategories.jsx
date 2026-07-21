@@ -1,0 +1,1 @@
+export default function FeaturedCategories({categories=[]}){return <section><h2 className='text-2xl font-bold mb-4'>Featured Categories</h2><div className='grid grid-cols-2 md:grid-cols-4 gap-4'>{categories.map(c=><div key={c._id} className='border rounded-xl p-4'>{c.name}</div>)}</div></section>}

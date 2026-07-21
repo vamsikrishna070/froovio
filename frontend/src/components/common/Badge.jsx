@@ -1,0 +1,1 @@
+export default function Badge({children}){return <span className="rounded-full bg-orange-100 text-orange-700 px-3 py-1 text-xs">{children}</span>}

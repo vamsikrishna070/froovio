@@ -1,0 +1,1 @@
+export default function ProductShare(){return <div className='flex gap-3'><button className='rounded bg-blue-600 text-white px-4 py-2'>Share Link</button><button className='rounded bg-gray-800 text-white px-4 py-2'>Copy URL</button></div>}

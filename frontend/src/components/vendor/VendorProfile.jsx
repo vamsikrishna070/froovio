@@ -1,0 +1,1 @@
+export default function VendorProfile({vendor}){return <div className='border rounded-xl p-6'><h2 className='text-xl font-bold'>{vendor?.name||'Vendor'}</h2><p>{vendor?.description||'Vendor information.'}</p></div>}

@@ -1,0 +1,1 @@
+export default function CollectionPage(){return <div className='p-8'><h1 className='text-3xl font-bold'>Product Collection</h1><p className='mt-4'>Curated products grouped into collections.</p></div>}

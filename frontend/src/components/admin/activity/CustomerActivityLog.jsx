@@ -1,0 +1,1 @@
+export default function CustomerActivityLog({logs=[]}){return <div className='border rounded-xl p-6'><h2 className='font-bold mb-4'>Customer Activity</h2>{logs.length?logs.map((l,i)=><div key={i}>{l}</div>):<p>No activity available.</p>}</div>}

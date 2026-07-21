@@ -1,0 +1,1 @@
+export default function ReturnRequestPage(){return <div className='max-w-xl mx-auto p-8'><h1 className='text-3xl font-bold mb-6'>Return Request</h1><textarea className='w-full border rounded p-3' placeholder='Reason for return'></textarea><button className='mt-4 rounded bg-orange-600 px-5 py-3 text-white'>Submit Request</button></div>}

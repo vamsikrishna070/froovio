@@ -1,0 +1,1 @@
+export default function SpecificationsTable({specs={}}){return <table className='w-full border'>{Object.entries(specs).map(([k,v])=><tbody key={k}><tr><td className='border p-2 font-medium'>{k}</td><td className='border p-2'>{v}</td></tr></tbody>)}</table>}

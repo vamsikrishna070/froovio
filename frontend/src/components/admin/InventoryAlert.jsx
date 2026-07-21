@@ -1,0 +1,1 @@
+export default function InventoryAlert({count=0}){return <div className='rounded-xl border p-5'><h2 className='font-bold'>Low Stock Alerts</h2><p className='text-3xl mt-3 text-red-600'>{count}</p></div>}

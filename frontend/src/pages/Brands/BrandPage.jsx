@@ -1,0 +1,1 @@
+export default function BrandPage(){return <div className='p-8'><h1 className='text-3xl font-bold'>Brand Store</h1><p className='mt-4'>Browse products from this brand.</p></div>}

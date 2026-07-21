@@ -1,0 +1,1 @@
+export default function InvoiceSummary(){return <div className='border rounded-xl p-6'><h2 className='text-xl font-bold'>Order Invoice</h2><p className='mt-3'>Invoice details will appear here.</p><button className='mt-4 rounded bg-orange-600 text-white px-4 py-2'>Print Invoice</button></div>}

@@ -1,0 +1,1 @@
+export default function CartSummary({total}){const shipping=total>100?0:10;return <aside className="rounded-xl border p-5"><h2 className="text-xl font-bold">Summary</h2><p>Subtotal: ${total.toFixed(2)}</p><p>Shipping: ${shipping.toFixed(2)}</p><hr/><p className="font-bold">Total: ${(total+shipping).toFixed(2)}</p></aside>}

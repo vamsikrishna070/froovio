@@ -1,0 +1,2 @@
+import {useCart} from "@/context/CartContext";import CartItem from "@/components/cart/CartItem";import CartSummary from "@/components/cart/CartSummary";
+export default function CartPage(){const{items,total,updateQty,removeItem}=useCart();return <div className="grid md:grid-cols-3 gap-8 p-8"><div className="md:col-span-2">{items.map(i=><CartItem key={i._id} item={i} onUpdate={updateQty} onRemove={removeItem}/>)}{!items.length&&<p>Your cart is empty.</p>}</div><CartSummary total={total}/></div>}

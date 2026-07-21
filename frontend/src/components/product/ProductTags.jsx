@@ -1,0 +1,1 @@
+export default function ProductTags({tags=[]}){return <div className='flex flex-wrap gap-2'>{tags.map(t=><span key={t} className='rounded-full border px-3 py-1 text-sm'>{t}</span>)}</div>}
